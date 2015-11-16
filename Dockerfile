@@ -1,6 +1,6 @@
 FROM fedora:latest
 
-RUN dnf install -y https://downloads.plex.tv/plex-media-server/0.9.12.13.1464-4ccd2ca/plexmediaserver-0.9.12.13.1464-4ccd2ca.x86_64.rpm
+RUN dnf install -y https://downloads.plex.tv/plex-media-server/0.9.12.19.1537-f38ac80/plexmediaserver-0.9.12.19.1537-f38ac80.x86_64.rpm
 
 VOLUME [/media]
 VOLUME [/config]
